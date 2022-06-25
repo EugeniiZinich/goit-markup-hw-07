@@ -18,11 +18,11 @@
 }
 
 .about__items {
-  $--thumb {
+  &--thumb {
     position: relative;
   }
 
-  $ p {
+  & p {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -38,7 +38,7 @@
     background: rgba(47, 48, 58, 0.8);
   }
 
-  $:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
 }

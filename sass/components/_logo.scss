@@ -1,14 +1,3 @@
-.logo__accent-blue {
-  color: var(--brand-color);
-}
-.logo__accent-black {
-  color: var(--main-color);
-}
-
-.logo__accent-white {
-  color: var(--second-brand-color);
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -20,6 +9,18 @@
   padding-bottom: 20px;
   margin-right: 94px;
 }
+
+.logo__accent-blue {
+  color: var(--brand-color);
+}
+.logo__accent-black {
+  color: var(--main-color);
+}
+
+.logo__accent-white {
+  color: var(--second-brand-color);
+}
+
 
 .logo:hover,
 .logo:focus {

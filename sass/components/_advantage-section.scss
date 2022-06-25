@@ -1,19 +1,17 @@
-.advantage{
-  background-color: red;
-}
+
 
 .advantage {
   padding-bottom: 0;
 
-  $__item:not(:first-child) {
+  &__item:not(:first-child) {
     margin-left: 30px;
   }
 
-  $__list {
+  &__list {
     display: flex;
   }
 
-  $__container {
+  &__container {
     display: flex;
 
     height: 120px;
@@ -24,11 +22,11 @@
     align-items: center;
   }
 
-  $__icon {
+  &__icon {
     width: 270px;
   }
 
-  $__title {
+  &__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -36,7 +34,7 @@
     margin-bottom: 10px;
   }
 
-  $__subtitle {
+  &__subtitle {
     line-height: 1.71;
     color: var(--secondary-color);
   }
